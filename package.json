@@ -4,7 +4,6 @@
   "description": "DigiOH 3D Viewer",
   "main": "main.js",
   "scripts": {
-    "install" : "npm install",
     "install-packager": "npm install electron-packager -g",
     "start": "electron .",
     "create-exe": "electron-packager ."
@@ -21,9 +20,12 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "~8.0.1",
-    "electron-packager": "^14.2.1"
+    "electron-packager": "^14.2.1",
+    "three": "~0.113.2"
   },
   "dependencies": {
-    "npm": "~6.13.7"
+    "npm": "~6.13.7",
+    "electron-packager": "^14.2.1",
+    "three": "~0.113.2"
   }
 }
