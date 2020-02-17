@@ -23,3 +23,7 @@ jobs:
     - run: electron-packager . digiOH-3D-Viewer --platform=win32 --arch=x64
       env:
         CI: true
+    #- name: Zip Artifacts
+    - uses: montudor/action-zip@v0.1.0
+      with:
+        args: zip -qq -r ./DigiOH-3D-Viewer.zip ./digiOH-3D-Viewer-win32-x64
