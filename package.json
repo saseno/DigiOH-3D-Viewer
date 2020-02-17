@@ -4,10 +4,7 @@
   "description": "DigiOH 3D Viewer",
   "main": "main.js",
   "scripts": {
-    "install" : "npm install",
-    "install packager": "npm install electron-packager -g",
-    "start": "electron .",
-    "create exe": "electron-packager ."
+    "start": "electron ."
   },
   "repository": "https://github.com/saseno/DigiOH-3D-Viewer",
   "keywords": [
