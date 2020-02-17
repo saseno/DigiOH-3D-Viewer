@@ -20,6 +20,7 @@ jobs:
     - run: npm install
     - run: npm run build --if-present
     - run: npm install -g electron-packager
+    - run: apt-get install wine
     - run: electron-packager . digiOH-3D-Viewer --platform=win32 --arch=x64
       env:
         CI: true
