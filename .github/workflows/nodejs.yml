@@ -27,3 +27,5 @@ jobs:
     - uses: montudor/action-zip@v0.1.0
       with:
         args: zip -qq -r ./DigiOH-3D-Viewer.zip ./digiOH-3D-Viewer-win32-x64
+      env:
+        CI: true
