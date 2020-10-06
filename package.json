@@ -19,7 +19,7 @@
   "author": "widy@saseno.dev",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~8.2.4",
+    "electron": "~8.5.2",
     "electron-packager": "^14.2.1",
     "three": "~0.113.2"
   },
